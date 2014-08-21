@@ -2,7 +2,7 @@ video#bgvid {
 position: fixed; right: 0; bottom: 0;
 min-width: 100%; min-height: 100%;
 width: auto; height: auto; z-index: -100;
-background: url(polina.jpg) no-repeat;
+background: url(eiger.jpg) no-repeat;
 background-size: cover;
 }
 
@@ -12,9 +12,12 @@ paw {
 	z-index: -100;
 }
 
+img {
+	width: 100%;
+}
 
 #rollup {
-	background-color: white;
+	/*background-color: white;*/
 	margin-top: 600px;
 	height: 600px;
 	width: 100%;
@@ -22,5 +25,10 @@ paw {
 
 
 #helloagain {
-	height: 600px;
+	height: 400px;
+}
+
+p {
+	color: white;
+	font-size: 100px;
 }
